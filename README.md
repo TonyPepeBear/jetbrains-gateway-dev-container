@@ -16,9 +16,7 @@ The container's user name and password is both `ubuntu`.
 
 容器的使用者和密碼都是 `ubuntu`。
 
-## Container 容器
-
-### Simple Ubuntu (最簡單的 Ubuntu)
+## Simple Ubuntu (最簡單的 Ubuntu)
 
 Installed packages: openssh-server ssh sudo git vim
 
