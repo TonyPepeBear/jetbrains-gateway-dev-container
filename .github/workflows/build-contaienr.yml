@@ -25,6 +25,6 @@ jobs:
         with:
           context: ./SimpleUbuntu
           build-args: |
-            UBUNTU_VERSION=${{ matrix.version }}
+            UBUNTU_VERSION=${{ matrix.ubuntu_version }}
           push: true
-          tags: ghcr.io/tonypepebear/ssh-dev-ubuntu:${{ matrix.version }}
+          tags: ghcr.io/tonypepebear/ssh-dev-ubuntu:${{ matrix.ubuntu_version }}
