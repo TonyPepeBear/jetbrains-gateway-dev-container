@@ -22,4 +22,4 @@ jobs:
         with:
           context: ./SimpleUbuntu
           push: true
-          tags: ghcr.io/TonyPepeBear/ssh-dev-ubuntu:latest
+          tags: ghcr.io/tonypepebear/ssh-dev-ubuntu:latest
