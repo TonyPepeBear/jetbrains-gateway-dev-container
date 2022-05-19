@@ -1,5 +1,9 @@
 # SSH Dev Container
 
+Simple Container with SSH server and several development packages.
+
+可以用 ssh 連入的容器，並已安裝基礎開發套件。
+
 ## Simple use (簡單使用)
 
 ```shell
