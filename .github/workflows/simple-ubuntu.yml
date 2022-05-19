@@ -40,6 +40,7 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           context: ./SimpleUbuntu
-          build-args: [UBUNTU_VERSION=18.04]
+          build-args: |
+            UBUNTU_VERSION=18.04
           push: true
           tags: ghcr.io/tonypepebear/ssh-dev-ubuntu:18.04
