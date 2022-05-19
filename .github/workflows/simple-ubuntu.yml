@@ -23,7 +23,7 @@ jobs:
           context: ./SimpleUbuntu
           push: true
           tags: ghcr.io/tonypepebear/ssh-dev-ubuntu:latest
-  ubuntu-18.04:
+  ubuntu-1804:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout project
